@@ -14,6 +14,7 @@
 		F54A2CBD228B9CFE005C81B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54A2CBB228B9CFE005C81B9 /* LaunchScreen.storyboard */; };
 		F58F1D86228BA88100D9D7D8 /* LearnerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58F1D85228BA88100D9D7D8 /* LearnerModel.swift */; };
 		F58F1D8C228BC4CF00D9D7D8 /* FacilitatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58F1D8B228BC4CF00D9D7D8 /* FacilitatorModel.swift */; };
+		F58F1D8E228BC95000D9D7D8 /* MenteeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58F1D8D228BC95000D9D7D8 /* MenteeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F54A2CBE228B9CFE005C81B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F58F1D85228BA88100D9D7D8 /* LearnerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnerModel.swift; sourceTree = "<group>"; };
 		F58F1D8B228BC4CF00D9D7D8 /* FacilitatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacilitatorModel.swift; sourceTree = "<group>"; };
+		F58F1D8D228BC95000D9D7D8 /* MenteeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenteeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				F54A2CB2228B9CFD005C81B9 /* AppDelegate.swift */,
+				F58F1D8D228BC95000D9D7D8 /* MenteeModel.swift */,
 				F54A2CB4228B9CFD005C81B9 /* ViewController.swift */,
 				F58F1D85228BA88100D9D7D8 /* LearnerModel.swift */,
 				F58F1D8B228BC4CF00D9D7D8 /* FacilitatorModel.swift */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F58F1D8E228BC95000D9D7D8 /* MenteeModel.swift in Sources */,
 				F58F1D8C228BC4CF00D9D7D8 /* FacilitatorModel.swift in Sources */,
 				F54A2CB5228B9CFD005C81B9 /* ViewController.swift in Sources */,
 				F58F1D86228BA88100D9D7D8 /* LearnerModel.swift in Sources */,
